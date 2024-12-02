@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.navbar img {
+    width: 30%;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1; /* Permet au menu de prendre de l'espace disponible */
+    justify-content: space-evenly; /* Ajoute des espaces égaux entre les items */
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #681b1b;
+    color: rgb(94, 44, 44);
+    border-radius: 5px;
+}
